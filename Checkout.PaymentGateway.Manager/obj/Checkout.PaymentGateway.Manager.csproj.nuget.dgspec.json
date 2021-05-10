@@ -1,0 +1,138 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Code\\Checkout.PaymentGateway\\Checkout.PaymentGateway.Manager\\Checkout.PaymentGateway.Manager.csproj": {}
+  },
+  "projects": {
+    "C:\\Code\\Checkout.PaymentGateway\\Checkout.PaymentGateway.Data\\Checkout.PaymentGateway.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Code\\Checkout.PaymentGateway\\Checkout.PaymentGateway.Data\\Checkout.PaymentGateway.Data.csproj",
+        "projectName": "Checkout.PaymentGateway.Data",
+        "projectPath": "C:\\Code\\Checkout.PaymentGateway\\Checkout.PaymentGateway.Data\\Checkout.PaymentGateway.Data.csproj",
+        "packagesPath": "C:\\Users\\sowrabha.jayasimha\\.nuget\\packages\\",
+        "outputPath": "C:\\Code\\Checkout.PaymentGateway\\Checkout.PaymentGateway.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\sowrabha.jayasimha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://teamcity.oakam.net/guestAuth/app/nuget/v1/FeedService.svc/": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Code\\Checkout.PaymentGateway\\Checkout.PaymentGateway.Manager\\Checkout.PaymentGateway.Manager.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Code\\Checkout.PaymentGateway\\Checkout.PaymentGateway.Manager\\Checkout.PaymentGateway.Manager.csproj",
+        "projectName": "Checkout.PaymentGateway.Manager",
+        "projectPath": "C:\\Code\\Checkout.PaymentGateway\\Checkout.PaymentGateway.Manager\\Checkout.PaymentGateway.Manager.csproj",
+        "packagesPath": "C:\\Users\\sowrabha.jayasimha\\.nuget\\packages\\",
+        "outputPath": "C:\\Code\\Checkout.PaymentGateway\\Checkout.PaymentGateway.Manager\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\sowrabha.jayasimha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://teamcity.oakam.net/guestAuth/app/nuget/v1/FeedService.svc/": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Code\\Checkout.PaymentGateway\\Checkout.PaymentGateway.Data\\Checkout.PaymentGateway.Data.csproj": {
+                "projectPath": "C:\\Code\\Checkout.PaymentGateway\\Checkout.PaymentGateway.Data\\Checkout.PaymentGateway.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

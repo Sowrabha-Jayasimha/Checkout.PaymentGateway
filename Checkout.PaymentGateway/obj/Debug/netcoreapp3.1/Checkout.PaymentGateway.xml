@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Checkout.PaymentGateway</name>
+    </assembly>
+    <members>
+        <member name="M:Checkout.PaymentGateway.Controllers.PaymentController.GetPayment(System.Guid)">
+            <summary>
+            Gets payment details for given transaction id
+            </summary>
+            <param name="id"></param>
+            <returns>Transaction details</returns>
+            <response code="200">When successful.</response>
+        </member>
+        <member name="M:Checkout.PaymentGateway.Controllers.PaymentController.MakePayment(Checkout.PaymentGateway.Requests.PaymentRequest)">
+            <summary>
+            Processes payment for given card and amount
+            </summary>
+            <param name="request"></param>
+            <returns>TransactionId</returns>
+            <respose code="200">When payment is successful.</respose>
+            <response code="404">When payment is not successful.</response>
+        </member>
+    </members>
+</doc>
